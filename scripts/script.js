@@ -19,8 +19,8 @@ function stringPlusNumber() {
 function calculateFilesAmount() {
   let flashCapacity = prompt("Enter flash capacity in GB");
   flashCapacity *= 1024;
-  const fileSize = prompt("Enter file size in MB");
-  const result = (flashCapacity / fileSize).toFixed(1);
+  const fileSize = 820;
+  const result = (flashCapacity / fileSize).toFixed(2);
   alert(result);
 }
 
